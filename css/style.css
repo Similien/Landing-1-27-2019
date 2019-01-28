@@ -4,10 +4,18 @@
 }
 body{
     background:url('/images/sundown.jpeg');
+    background-size: initial;
 }
 h1{
     color:var(--blk);
 }
 .copy, .copy a{
+    color: var(--wht);
+}
+
+.jumbotron{
+    background: none;
+}
+.jumbotron p, .jumbotron h1{
     color: var(--wht);
 }
