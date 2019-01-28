@@ -1,0 +1,13 @@
+:root{
+    --blk:#000;
+    --wht:#fff;
+}
+body{
+    background:url('/images/sundown.jpeg');
+}
+h1{
+    color:var(--blk);
+}
+.copy, .copy a{
+    color: var(--wht);
+}
